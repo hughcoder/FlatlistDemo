@@ -39,6 +39,15 @@ export default class App extends Component<Props> {
          }
        }
        />
+          <Button 
+       title={"SectionListDemo"}
+       style={{marginTop: 40,}}
+       onPress={
+         ()=>{
+         navigation.navigate("SectionListDemo")
+         }
+       }
+       />
       </View>
     );
   }
